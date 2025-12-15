@@ -32,7 +32,8 @@ public class Render {
 
     public void clearScreen()
     {
-    // Clear the console for IntelliJ IDEA
+        // Clear the console for IntelliJ IDEA
+        System.out.print("\033[H\033[2J");
     }
 
     // Render a frame via {@screenX} and {@screenY}

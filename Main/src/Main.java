@@ -25,6 +25,8 @@ public class Main {
             loader.clearScreen();
             System.out.println(looker.getChar(30));
             System.out.println(looker.getChar(3));
+            loader.clearScreen();
+
             System.out.println(loader.getMultiplier());
 
 
